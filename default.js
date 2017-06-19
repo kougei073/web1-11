@@ -12,4 +12,4 @@ message = 'はずれ　数字はもっと小さいです';
 message = '不当な入力が行われました、０～２の数字を入力してください';
 }
 
-document.getElementByid('choice').textContent = message;
+document.getElementById('choice').textContent = message;
