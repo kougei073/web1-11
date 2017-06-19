@@ -8,7 +8,7 @@ message = 'あたり';
 else if(answer < number){
 message = 'はずれ　数字はもっと大きいです';
 }
-else if(answer > number){
+else if(number < answer){
 message = 'はずれ　数字はもっと小さいです';
 }
 else{
