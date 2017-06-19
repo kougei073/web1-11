@@ -8,6 +8,8 @@ message = 'あたり';
 message = 'はずれ　数字はもっと大きいです';
 }else if(number < answer){
 message = 'はずれ　数字はもっと小さいです';
+}else if(i=3; i < answer){
+message = '不当な入力が行われました、０～２の数字を入力してください';
 }else{
 message = '不当な入力が行われました、０～２の数字を入力してください';
 }
